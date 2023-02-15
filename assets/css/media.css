@@ -1,0 +1,848 @@
+@media (min-width: 320px) {
+  .destination_wr:nth-child(1),.destination_wr:nth-child(2),.destination_wr:nth-child(3),.destination_wr:nth-child(4){
+	  display:none;
+}
+ .bottom_slider_wr:nth-child(1),.bottom_slider_wr:nth-child(2),.bottom_slider_wr:nth-child(3),.bottom_slider_wr:nth-child(4){
+	  display:none;
+}
+}
+@media (min-width: 768px) {
+  .destination_wr:nth-child(3),.destination_wr:nth-child(4){
+	  display:block;
+  }	
+  .bottom_slider_wr:nth-child(3),.bottom_slider_wr:nth-child(4){
+	  display:block;
+  }	
+}
+@media (min-width: 1024px) {
+   .destination_wr:nth-child(1),.destination_wr:nth-child(2),.destination_wr:nth-child(3),.destination_wr:nth-child(4),.destination_wr:nth-child(5){
+	  display:block;
+  }	
+  .bottom_slider_wr:nth-child(1),.bottom_slider_wr:nth-child(2),.bottom_slider_wr:nth-child(3),.bottom_slider_wr:nth-child(4),.bottom_slider_wr:nth-child(5){
+	  display:block;
+  }	
+}
+@media (min-width: 1100px) {
+    #lsfmodal .modal-dialog {
+        width: 1000px;
+        margin: 30px auto;
+    }
+}
+@media only screen and (min-width:1800px) {
+    #wrapper, footer, #anotherpage_wrapper, #profile_wrapper, #host_wrapper, #another_wrapper,.navbar_wrapper, .containerbox {
+        max-width: 1700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	.mobile_filter_box.containerbox,.top_filterdiv.topbox{
+		max-width:1700px;
+		margin:0 auto;
+	}
+	#mostpopularslider .mostpopularimg{
+		height:100%;
+	}
+}
+@media only screen and (max-width:1800px){
+ #lsfmodal .modal-dialog {
+        width: 900px;
+    }
+.staydetail_bannerdiv.bannerbox{
+	min-height:500px;
+}
+.staydetail_bannerdiv.bannerbox .staydetail_bannermd .item_img:first-of-type, .staydetail_bannerdiv.bannerbox .staydetail_bannerrt .item_img:first-of-type{
+	height:250px;
+}
+div.description,.details_section ul li{
+	font:16px/24px 'Manrope';
+}
+.staypaymentdetail span.staypayheading,.details_section span.staypayheading{
+	font:17px 'Manrope';
+}
+span.menities_span{
+	font:17px 'Manrope';
+	margin-bottom:25px;
+}
+.stay_detail_header h1{
+	font:24px 'Manrope';
+    font-weight: 600;
+}
+.stay_detail_header p{
+	font-size:17px;
+}
+footer .footer_menulist a{
+	font:16px 'Manrope';
+}
+footer .footer_logoimg img{
+	width:175px;
+}
+section.popular-destination .destination_img{
+	height:375px;
+}
+section.toprated div.title h2{
+	font-size:32px;
+}
+}
+@media only screen and (max-width:1600px){
+.top_filterdiv {
+		top:62px;
+}
+.staydetail_bannerdiv.bannerbox{
+	min-height:400px;
+}
+.staydetail_bannerdiv.bannerbox .staydetail_bannermd .item_img:first-of-type, .staydetail_bannerdiv.bannerbox .staydetail_bannerrt .item_img:first-of-type{
+	height:200px;
+}
+.staypaymentdetail .stay_payinfo{
+	width: calc(100% - 320px);
+}
+.pselectbasesamount.formsecond{
+	width:300px;
+}
+div.description,.details_section ul li{
+	font:14px/24px 'Manrope';
+}
+.staypaymentdetail span.staypayheading,.details_section span.staypayheading{
+	font:19px 'Manrope';
+}
+span.menities_span{
+	font:15px 'Manrope';
+	margin-bottom:25px;
+}
+.stay_detail_header h1{
+	font:21px 'Manrope';
+    font-weight: 600;
+}
+.stay_detail_header p{
+	font-size:15px;
+}
+footer .footer_menulist a{
+	font:14px 'Manrope';
+}
+.navbar-brand {
+	width: 150px;
+     height: 30px;
+}
+footer .footer_logoimg img{
+	width:150px;
+}
+section.popular-destination .destination_img{
+	height:350px;
+}
+section.body_header{
+	padding-top: 300px;
+}
+section.stay .stay_inner{
+	padding: 75px 0px 75px 50px;
+}
+}
+@media only screen and (max-width:1440px){
+.stay_detail_header h1{
+	font:19px 'Manrope';
+}
+footer .footer_menulist a{
+	font:13px 'Manrope';
+}
+section.body_header{
+	padding-top: 220px;
+}
+section.stay .stay_inner{
+	padding: 50px 0px 50px 50px;
+}
+.top_ratedcontent{
+	padding: 15px 0px 50px 15px;
+}
+section.toprated div.title h2{
+	font-size:27px;
+}
+}
+@media only screen and (max-width:1320px){
+section.popular-destination .destination_img{
+	height:320px;
+}
+}
+@media only screen and (max-width:991px) {
+    :root {
+        /* --text_color: #000; */
+        --padding_left: 15px;
+        --margin_up_bottom: 25px;
+    }
+	.more_filterinner{
+		display:block!important;
+	}
+	.filter_body{
+	    max-height: 100%;
+	}
+	.place_contentwrapper .place_innersliderimg {
+       max-height: 100%;
+	}
+	.stagging_listwrapper{
+		margin:0px -10px;
+	}
+    .actionform_div {
+        margin-top: 10px;
+    }
+    .stay_innerwrapper div.lt_heading {
+        width: 65px;
+    }
+    section.stay .stay_inner {
+        width: calc(100% - 65px);
+    }
+    section.mostpopular {
+        flex-direction: column;
+        padding: 0px 15px 0px 0px;
+    }
+    section.mostpopular .most_popularinfoinner {
+        padding: 0;
+    }
+    section.mostpopular .most_popularsection,.most_popularsectionshimmereffect {
+        margin-right: 0px;
+    }
+    section.mostpopular .most_popularinfo,.most_popularinfoshimmereffect {
+        margin-left: 0px;
+    }
+    section.mostpopular .most_popularsection, section.mostpopular .most_popularinfo, #mostpopularslider .mostpopularimg span, #mostpopularslider .owl-dots {
+        width: 100%;
+    }
+    section.mostpopular .most_popularinfo {
+        background: none;
+        margin-top: 30px;
+    }
+    section.host .host_content, section.host .hosting_satification {
+        width: 70%;
+    }
+    .earn_wr .actionform_div {
+        width: 100%;
+    }
+    .earn_wr .earn_amount {
+        width: 100%;
+    }
+    section.body_header span.heading {
+        font: 41px/43px 'Manrope';
+    }
+    section.body_header span.tag_line {
+        font: 16px/18px 'Manrope';
+    }
+    #another_wrapper, .host_formwr span.hostpname, .host_formwr .host_headingwr, .host_formdiv,.chekboxhost_formdiv  {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .host_formfooter {
+        padding: 10px 15px 10px 15px
+    }
+    .totalmoninfo {
+        font: 15px 'Manrope';
+    }
+    .totalmontext {
+        font: 14px 'Manrope';
+    }
+    #host_wrapper .host_img {
+        display: none;
+    }
+    #host_wrapper.hostform5 .host_img, #host_wrapper.hostform5 .host_img #hostmap {
+        display: block;
+    }
+    .host_img {
+        width: 100%;
+        height: 300px;
+    }
+    .host_formwr {
+        width: 100%;
+    }
+    .staydetail_bannerdiv {
+        height: 238px;
+    }
+    .availabledates_div .daterangepicker .calendar-table th, .availabledates_div .daterangepicker .calendar-table td {
+        min-width: 25px;
+        width: 25px;
+        height: 19px;
+        line-height: 19px;
+    }
+    .availabledates_div .daterangepicker {
+        z-index: 0;
+        ;
+    }
+    .setting_wr .setting_content {
+        padding: 15px 0px 15px 15px
+    }
+    .lsf_wrapper .lsf_img {
+        display: none;
+    }
+    #lsfmodal .modal-dialog {
+        width: 500px;
+    }
+    .lsf_wrapper .lsf_formfield, .lsf_wrapper .lsf_img {
+        width: 100%;
+    }
+    .lsf_wrapper .lsf_formfield {
+        padding: 15px;
+    }
+    .top_filterdiv, #filterpage_wrapper, .navbar_wrapper, footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+	.stagging_listdiv{
+		padding-right:0;
+	}
+    .stagging_listwrapper .place_contentwrapper {
+        width: calc(50% - 20px);
+    }
+    button#mapviewbtn {
+        position: fixed;
+        bottom: 100px;
+        left: 50%;
+        right: 0;
+        margin: auto;
+        transform: translateX(-50%);
+    }
+    .mobileviewshow {
+        display: flex;
+    }
+    .mobile_filter .top_filterdiv {
+        position: static;
+    }
+    .mobile_filter {
+        position: fixed;
+        height: 100vh;
+        bottom: 0;
+        top: -100%;
+        z-index: 1030;
+        background: #fff;
+		display:none;
+    }
+    .mobile_filter span.datedropdown span.filterheading{
+        border-top:0;
+    }
+    .mobile_filter.mobilefiteropen{
+      top:0;
+	  display:block;
+    }
+    .mobile_filter_box {
+        height: calc(100vh - 60px);
+        overflow-y: auto;
+        padding-bottom: 20px;
+    }
+    .mobile_filter .entire_Placedrop{
+        display: none;
+    }
+    .mobile_filter .customdropdownbox {
+        display: block;
+    }
+    .mobile_filter    span.customdropdown.customdropdownopen .customdropdownbox{
+      position: relative;
+    }
+    .mobile_filterspan.customdropdown .actionbtn, .mobile_filter .customdropdownfooter {
+        display: none;
+    }
+    .mobile_filter [data-item] {
+        display: none;
+    }
+    .mobile_filter_header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        padding: 20px 10px;
+    }
+    .mobile_filter  .embedded-daterangepicker .daterangepicker .drp-calendar {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .mobile_filter .datepicker_dropdownwrapper{
+        min-width: 100%;
+    }
+    .mobile_filter_header .actionbtn {
+        min-width: 200px;
+    }
+    .mobile_filter_header a {
+        color: rgb(0, 0, 0);
+        font: 15px 'Manrope';
+    }
+    .mobile_filter .top_filterdiv .anotheractionbtn span.customdropdown {
+        display: unset;
+        width: 100%;
+    }
+    .mobile_filter .guest_dropdownwrapper {
+        margin-bottom: 15px;
+    }
+    .mobile_filter .datepicker_dropdownwrapper{
+        margin-bottom: 15px;
+    }
+    .mobile_filter .guest_dropdownwrapper ,.mobile_filter .price_dropdownwrapper{
+        padding: 0;
+        width:100%;
+    }
+    .mobile_filter  span.filterheading{
+        padding-top: 10px;
+        margin-top: 0px;
+        border-top:1px solid rgb(235, 235, 235);
+        display: block;
+    }
+    .mobile_filter .filter_box{
+        padding: 0px 15px 0px 15px;
+        position: static;
+        top: 0;
+    }
+    .mobile_filter .filter_box .filter_header{
+      display: none;
+    }
+    .mobile_filter .top_filterdiv .anotheractionbtn{
+        width:100%;
+    }
+    .map_viewshow {
+        display: flex;
+        flex-direction: column-reverse;
+		margin-left: -15px;
+        margin-right: -15px;
+    }
+    .map_viewshow .staggingli_view {
+        width: 100%;
+    }
+    .map_viewshow .staggingli_view{
+        display: none;
+    }
+    .map_viewshow .stagging_mapview {
+        display: block;
+        width: 100%;
+        position: static;
+    }   
+	li.input_field .search_input {
+        margin: 13px 0px;
+	}
+	.top_filterdiv .filter_mapbtn button.actionbtn{
+		margin-left:0;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.pselectbasesamount.formsecond {
+      width: 100%;
+    }
+	.banner_countwr{
+		display:none;
+	}
+	#propert-on-mob{
+		display:block;
+	}
+	.select-tag-daterangepicker .daterangepicker {
+       min-width: auto;
+    }
+	.chatwr .chat_currentp span.chatcupalp{
+ 	  max-width:100%;
+    }
+     .chatwr .chatscreen.chatscreenmb{
+       display:none;
+     }
+    .chatwr .chat_screencontent {
+       height: calc(100% - calc(141px + 22px));
+    }
+	.chatwr .chatscreen{
+		height: calc(100vh - 153px);
+	}
+	a.chatback_tolist{
+	 display: inline-flex;
+	}
+	.reviewrating_div.review_wrapper .reviewleft,.reviewrating_div.review_wrapper .reviewrgt {
+		width: 100%;
+		float: none;
+     }
+	 .banner_countwr {
+      margin: 0px -15px;
+     }
+	 .reviewrating_div.review_wrapper .reviewleft{
+		 margin-bottom:40px;
+	 }
+	.host_formdiv,.chekboxhost_formdiv{
+      max-width: 100%;
+	}
+	.filter_body .checkboxwrapper div.checkboxdiv {
+		width: 50%;
+	}
+	.profileanother .profile_anotherinnerdiv{
+		padding-right:15px;
+	}
+	.place_contentwrapper .place_innersliderimg{
+		min-height: auto;
+		height: 160px;
+	}
+	.fixedfooter,ul.onmobilenav{
+       display: flex; 
+	}
+	.searchmb,.formb{
+		display:block;
+	}
+	section.body_header,.actionform_div,section.toprated,section.earn_header:after{
+		border-top-left-radius: 0px;
+	}
+	section.stay{
+		border-bottom-left-radius: 0px;
+	}
+    section.newsletter{
+		border-bottom-left-radius: 0px;
+	}
+	section.mostpopular{
+		padding:0px;
+	}
+	li.input_field .search_input{
+        margin: 10px 0px 0px 0px;
+        width:100%;
+    } 
+    li.input_field .search_input .form-control{
+        border:1px solid #000;
+    }
+    li.input_field .search_input.searchopen{
+        width: 100%;
+    }
+	#profile_wrapper .profilepage_bg.listbg {
+      padding-right: 15px;
+	}
+	.chatwr .chatwelcome_view h2{
+		font-size:23px;
+	}
+    .navbar_wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-toggle {
+        margin: 15px 0px;
+        border: 0;
+    }
+	.onmobilenav .navbar-toggle {
+        margin: 3px 0px;
+        border: 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #000;
+    }
+    .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    #wrapper {
+		padding-left: 15px;
+        padding-right: 15px;
+    }
+	#wrapper {
+      margin-top: 62px;
+	}
+    section.body_header .form_body {
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    section.body_header .form_input .form_group {
+        flex: auto;
+        margin: 0px 5px 10px 5px;
+        width: calc(100% - 10px);
+    }
+    section.body_header .form_input {
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+    section.body_header .form_go .form_group {
+        width: calc(100% - 10px);
+        margin: 0px 5px 10px 5px;
+    }
+    section.body_header .form_go .form_group p {
+        display: none;
+    }
+    .line_stip {
+        padding: 0px 5px 0px 5px;
+    }
+    .actionform_div {
+        padding: 20px 5px 20px 5px;
+    }
+    section.stay .stay_inner {
+        padding-left: 20px;
+    }
+    .top_ratedcontent {
+        margin-top: 15px;
+    }
+    span.bgname {
+        font: 142px/124px 'Manrope';
+        color: #fff;
+        opacity: 0.28;
+        position: absolute;
+        top: -113px;
+        left: 6px;
+        white-space: nowrap;
+    }
+    .form_go, section.host .host_content, section.host .hosting_satification, footer .footer_menudiv, footer .footer_logodiv {
+        width: 100%;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    footer .footer_menudiv .footer_menulist {
+        width: 50%;
+        flex: auto;
+    }
+    footer .footer_logodiv {
+        text-align: center;
+    }
+    footer .footer_logoimg {
+        margin-bottom: 10px;
+    }
+    footer .footer_menudiv {
+        margin-top: 30px;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    footer .social_icon {
+        justify-content: center;
+    }
+    footer .social_icon a:last-of-type {
+        margin-right: 0;
+    }
+    div.title h1, div.title h2, div.title h3 {
+        font-size: 27px;
+    }
+    section.popular-destination .destination_wrapper {
+        font-size: 19px;
+    }
+    section.newsletter .newsletter_content {
+        max-width: 250px;
+    }
+    .earnwr {
+        flex-direction: column-reverse;
+    }
+    .chatwr {
+        flex-direction: column;
+    }
+    .earnwr .earndiv {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+        position: static;
+    }
+    .totalrevenue_thismonth, .chart_header {
+        flex-direction: column;
+    }
+    .chatwr .chathistory {
+        margin-bottom: 20px;
+    }
+    .earnwr .earnlistwr, .chatwr .chathistory, .chatwr .chatscreen {
+        width: 100%;
+    }
+    .chart_change {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .chart_change .form_group {
+        margin-left: 0px;
+        margin-right: 10px;
+        min-width: auto;
+    }
+    .chart_change .form_group:last-of-type {
+        margin-right: 0px;
+    }
+    .host_formwr span.hostpname {
+       font-size: 11px;
+    }
+    .host_formwr #hostBar {
+        height: 5px;
+    }
+    .host_formwr .host_headingwr span.form_heading {
+       font-size: 18px;
+    }
+    .prevselpay .pselect_wr .thinkingmind, .pselect_wr .paywith, .staypaymentdetail .stay_payinfo {
+        width: 100%;
+        margin-right: 0;
+    }
+    .prevselpay .person_dayselect {
+        flex-direction: column;
+    }
+    .prevselpay .pinfowr {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .prevselpay .pinfowr:last-of-type {
+        margin-bottom: 0px;
+        margin-right: 0;
+    }
+    .pselectbasesamount {
+        width: 100%;
+        margin: 15px 0px;
+    }
+    section.mostpopular .most_popularinfo p, section.host .host_content p {
+        font: 14px/27px 'Manrope';
+    }
+    .stay_detailheaderwr .stay_detail_header {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+	.stay_detailheaderwr .stay_actionbtn {
+       width: 100%;
+	}
+    .stay_detailheaderwr .stay_actionbtn {
+        text-align: center;
+    }
+    .staydetail_bannerdiv .staydetail_bannerlt {
+        width: 100%;
+        height: 100%;
+    }
+    .staydetail_bannerdiv {
+        flex-direction: column;
+        height: 193px;
+    }
+    .staydetail_bannerdiv .staydetail_bannermd, .staydetail_bannerdiv .staydetail_bannerrt {
+        display: none;
+    }
+    .availabledates_div #daterangepicker1-container {
+        margin: 0 auto;
+        display: table;
+		width: 100%;
+    }
+	.embedded-daterangepicker .daterangepicker .drp-calendar {
+    width: 100%;
+    max-width: 100%;
+}
+    .availablevec_info, .rating_view, .stay_detailpinfo {
+        flex-direction: column;
+    }
+    .rating_view .rating_number, .stay_detailpinfo .staydeinfoimg, .setting_wr .setting_content {
+        width: 100%;
+    }
+    .staypaymentdetail .bedroomdiv span.bedroom {
+        margin-right: 15px;
+    }
+    .rating_view .rating_progress {
+        width: 100%;
+        max-width: 100%;
+    }
+    .stay_detailpinfo .staydetprating {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .person_rating {
+        margin-top: 20px;
+    }
+    .availablevec_info span.vec_btn {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        flex: auto;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .setting_content .settingpimgwr {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .setting_content .input_button {
+        display: flex;
+        justify-content: space-between;
+    }
+    .setting_wr .setting_sidebar {
+        width: 100%;
+    }
+    .setting_content .setting_imgdiv {
+        margin-bottom: 10px;
+    }
+    .setting_wr .setting_content {
+        padding: 15px 0px 15px 0px;
+    }
+    .refer_frndwrapper, .profile_section .profilepinfowrapper, .profileanother .profile_anotherinnerdiv, .profileanother .reser_filterdiv {
+        flex-direction: column;
+    }
+    .refer_frndwrapper .referfrnd_text, .refer_frndwrapper .referfrnd_img {
+        width: calc(100% - 15px);
+    }
+    .refer_frndwrapper .referfrnd_img {
+        margin-left: 0px;
+		margin-top: 30px;
+    }
+    .profile_section .profilepinfowrapper {
+        text-align: center;
+    }
+    .profileanother .profile_section {
+        width: calc(100% - 15px);
+        margin-right: 15px;
+    }
+    .profileanother .profilehalfinfo {
+        width: 100%;
+        margin-left: 0px;
+        padding: 15px 15px 15px 15px;
+		min-height: auto;
+        margin-bottom: 80px;
+    }
+    .profileanother .filter_year {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .profileanother .place_contentwrapper {
+        width: calc(100% - 10px);
+    }
+    .filter_year .form-control {
+        border: 1px solid #000;
+    }
+    .profileanother .month_list {
+        justify-content: space-between;
+    }
+    .place_innerslider.owl-theme .owl-nav {
+        display: block;
+    }
+    .noti_profile_menu ul.onmob {
+        display: flex;
+    }
+    ul.navbar-nav li.notili, ul.navbar-nav li.profileli {
+        display: none;
+    }
+    li.profileli.customDropdown .dropdown-menu, li.notili.customDropdown .dropdown-menu {
+        top: calc(100% + 12px);
+    }
+	li.profileli.customDropdown .dropdown-menu{
+        min-width: 190px;
+    }
+	li.notili.customDropdown .dropdown-menu {
+        min-width: 240px;
+    }
+    #lsfmodal .modal-dialog {
+         width: 90%;
+    }
+    .lsf_wrapper .singnforgotdiv {
+        flex-direction: column;
+    }
+    .lsf_wrapper .singnforgotdiv .checkboxdiv {
+        margin-bottom: 10px;
+    }
+    .lsf_wrapper .singnforgotdiv a.aforgot {
+        text-align: center;
+    }
+    .digit-group {
+        margin-left: -3px;
+    }
+    .digit-group input {
+        width: 40px;
+        height: 40px;
+        margin: 0px 3px;
+    }
+    .stagging_listwrapper .place_contentwrapper {
+        width: calc(100% - 20px);
+    }
+    .map_viewshow .staggingli_view .stagging_listwrapper .place_contentwrapper {
+        width: calc(100% - 20px);
+        margin: 0px 10px 10px 10px;
+    }
+	.stay_innerwrapper div.lt_heading {
+      width: 100%;
+	  margin: 20px 0px;
+    }
+	.stay_innerwrapper div.lt_heading .title {
+     writing-mode: unset;
+      transform: none;
+     }
+	 section.stay .stay_inner {
+      width: 100%;
+     }
+}

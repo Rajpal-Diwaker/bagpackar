@@ -1,0 +1,63 @@
+*akash forgot css*/
+
+ 
+body {
+font-family: 'Nunito Sans', sans-serif;
+margin: 0;
+padding: 0;
+}
+/ fallback /
+
+@font-face {
+font-family: 'Material Icons';
+font-style: normal;
+font-weight: 400;
+src: local('Material Icons'), local('MaterialIcons-Regular'), url('../fonts/micon.woff2') format('woff2');
+}
+.email_msg_wrap {
+/*padding: 40px;*/
+background: #e3e8ea;
+height: 100vh;
+max-height: 940px;
+position: relative;
+}
+/*.content_data_email_verified {
+margin: 110px auto;
+display: table;
+}*/
+.content_data_email_verified{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+.content_data_email_verified h2 {
+text-align: center;
+font-size: 25px;
+color: rgb(1, 194, 157);
+font-weight: bold;
+}
+.content_data_email_verified img {
+margin: 10px auto;
+display: block;
+}
+.content_data_email_not_verified {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+.content_data_email_not_verified h2 {
+text-align: center;
+font-size: 35px;
+color:red;
+font-weight: bold
+}
+.content_data_email_not_verified img {
+margin: 15px auto;
+display: table;
+}
+.sub_menu_active{
+background-color: #57666d;
+}

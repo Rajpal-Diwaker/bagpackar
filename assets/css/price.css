@@ -1,0 +1,66 @@
+#histogramSlider{
+	margin-bottom:20px;
+}
+#histogramSlider .ui-state-active{
+	background-color:#000;
+	border-color:#000;
+}
+.priceinput_field{
+  position: relative;
+  float: left;
+  width: calc(50% - 10px)
+}
+.priceinput_field i{
+  position: absolute;
+  top:50%;
+  left:10px;
+  font-size:14px;
+  transform: translateY(-50%);
+}
+.priceinput .priceinput_field:first-of-type{
+  margin-right: 5px;
+}
+.priceinput .priceinput_field:last-of-type{
+  margin-left: 5px;
+}
+.priceinput span{
+  float: left;
+  width: 10px;
+  text-align: center;
+  padding: 7px 0px;
+} 
+.priceinput_field input{
+  width:100%;
+  padding:10px;
+  padding-left: 20px;
+  font: 13px 'Manrope';
+  border:1px solid #000;
+  border-radius: 5px;
+}
+ .bin { 
+     position: relative; 
+     margin-right: 1px;
+ }
+
+ .bin-color { background-color: #eee; }
+ .bin-color-selected { background-color: #000; }
+ .bin-color-optimal { background-color: #eee; }
+ .bin-color-optimal-selected { background-color: #000; }
+
+ .in-range { z-index: 1;}
+ .out-of-range { z-index: 0;}
+ .selected-range { text-align: center; }
+
+ .ui-slider-horizontal { height: .2em; }
+ .ui-slider .ui-slider-handle {
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+ }
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.7em;
+    margin-left: -.6em;
+}
+ .ui-corner-all {
+     border-radius: 0;
+ }

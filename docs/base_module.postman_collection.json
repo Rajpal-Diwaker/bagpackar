@@ -1,0 +1,245 @@
+{
+	"variables": [],
+	"info": {
+		"name": "base_module",
+		"_postman_id": "14642c6a-63f0-5ac1-54b4-7df5925025c9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"url": "http://localhost/base_module/api/v1/user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "method",
+							"value": "signup",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "country_code",
+							"value": "+91",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile_number",
+							"value": "75006746322",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "tripti@techugo.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "signin",
+			"request": {
+				"url": "http://localhost/base_module/api/v1/user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "method",
+							"value": "signin",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "75006746322",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "uiDa95",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "forgotpassword",
+			"request": {
+				"url": "http://localhost/base_module/api/v1/user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "method",
+							"value": "forgotpassword",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "tripti@techugo.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Resend_otp",
+			"request": {
+				"url": "http://localhost/base_module/api/v1/user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "method",
+							"value": "send_otp",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile_number",
+							"value": "75006746322",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update_profile",
+			"request": {
+				"url": "http://localhost/base_module/api/v1/user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "method",
+							"value": "update_profile",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "profile_picture",
+							"description": "",
+							"type": "file",
+							"src": "61YJaB8vaTL._SL1200_.jpg"
+						},
+						{
+							"key": "name",
+							"value": "tripti",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "techugo pvt ltd",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "noida",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile_number",
+							"value": "9876543213",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "trip1ti@techugo.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "change_password",
+			"request": {
+				"url": "http://localhost/base_module/api/v1/user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "method",
+							"value": "change_password",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "old_password",
+							"value": "uiDa95",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "new_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
